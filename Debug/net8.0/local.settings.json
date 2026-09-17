@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "AzureStorage:ConnectionString": "DefaultEndpointsProtocol=https;AccountName=st10399162store;AccountKey=q6vsEuk5x1hh7OcuhWsNzR5anlaKoMH9BndbmwJ4tIFOnyCAPCEFwKZXsXjrJgdz8DlfU4Z8TdH4+ASt5TXgow==;EndpointSuffix=core.windows.net",
+    "AzureStorage:TableName": "CustomerProductTable",
+    "AzureStorage:BlobContainerName": "product-media",
+    "AzureStorage:QueueName": "order-processing-queue",
+    "AzureStorage:FileShareName": "logshare",
+    "AzureStorage:FileDirectoryName": "logs"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}
